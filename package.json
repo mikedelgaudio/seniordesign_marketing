@@ -1,0 +1,41 @@
+{
+  "name": "seniordesign_marketing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .ts,.tsx .",
+    "lint:fix": "eslint --fix --ext .ts,.tsx .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "open-props": "^1.4.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.23.1",
+    "eslint-plugin-react": "^7.31.8",
+    "husky": "^7.0.0",
+    "lint-staged": "^13.0.3",
+    "postcss-jit-props": "^1.0.7",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "lint-staged": {
+    "*.{html,css}": "prettier --write",
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
+}
