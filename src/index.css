@@ -1,4 +1,10 @@
 @import "./styles/normalize.css";
+@import "./styles/themes.css";
+@import "./styles/common.css";
+@import "./styles/buttons.css";
+@import "./styles/containers.css";
+@import "./styles/typography.css";
+@import "./styles/animations.css";
 
 *,
 *::before,
