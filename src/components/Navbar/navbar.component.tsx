@@ -1,32 +1,32 @@
 import { useState } from "react";
 import "./navbar.component.css";
 
-function Navbar() {
+const Navbar = () => {
   const links = () => {
     return (
       <>
         <li>
-          <a href="#">Features</a>
+          <a
+            className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800	 focus:ring-offset-2"
+            href="#"
+          >
+            Features
+          </a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a
+            className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            href="#"
+          >
+            Team
+          </a>
         </li>
         <li>
-          <a href={"#"} target="_blank">
-            GitHub
-            <span>
-              <svg
-                className="icons icon-light icon-sm"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M432 320h-32a16 16 0 0 0-16 16v112H64V128h144a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V336a16 16 0 0 0-16-16ZM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 0 0 0 34L157.67 377a24 24 0 0 0 34 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 0 0-24-24Z"
-                />
-              </svg>
-            </span>
+          <a
+            className="flex items-center justify-center rounded-xl border border-slate-900 bg-transparent px-5 py-2 text-base font-semibold leading-7 text-slate-900 transition-all duration-200 hover:bg-slate-900 hover:text-white focus:bg-slate-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-slate-800 focus:ring-offset-2 w-full sm:w-auto"
+            href="#"
+          >
+            Contact
           </a>
         </li>
       </>
@@ -39,7 +39,7 @@ function Navbar() {
       <>
         <div
           className={`hamburger-menu-button ${toggled ? "open" : ""} `}
-          onClick={toggled => setToggle(toggled => (toggled = !toggled))}
+          onClick={() => setToggle(toggled => (toggled = !toggled))}
         >
           <div className="hamburger-menu" />
         </div>
@@ -48,23 +48,30 @@ function Navbar() {
   };
 
   return (
-    <>
-      <div className="nav-wrapper">
-        <a className="nav-logo" href="/">
-          Prism
-        </a>
-        <nav className="nav-desktop">
-          <ul className="nav-items-container">{links()}</ul>
-        </nav>
-        <span className="nav-mobile">{hamburgerMenu()}</span>
+    <div className="relative py-4 md:py-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-nowrap items-center justify-between gap-4 w-auto">
+          <a
+            className="text-3xl lg:text-4xl font-semibold rounded text-slate-900 transition-all duration-200 hover:text-opacity-50 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            href="/"
+          >
+            Prism
+          </a>
+          <nav className="sm:block hidden">
+            <ul className="flex list-none items-center gap-9">{links()}</ul>
+          </nav>
+          <span className="sm:hidden block">{hamburgerMenu()}</span>
+        </div>
+        {toggled ? (
+          <nav className="sm:hidden block">
+            <ul className="grid list-none flex-col items-start px-1 py-5 gap-4">
+              {links()}
+            </ul>
+          </nav>
+        ) : null}
       </div>
-      {toggled ? (
-        <nav className="nav-mobile">
-          <ul className="nav-items-container">{links()}</ul>
-        </nav>
-      ) : null}
-    </>
+    </div>
   );
-}
+};
 
 export { Navbar };
