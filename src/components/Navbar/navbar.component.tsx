@@ -48,7 +48,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative py-4 md:py-6">
+    <div className="relative py-4 md:py-6 bg-slate-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-nowrap items-center justify-between gap-4 w-auto">
           <a

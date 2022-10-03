@@ -2,7 +2,7 @@ import "./hero.component.css";
 
 const Hero = () => {
   return (
-    <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36">
+    <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36 bg-slate-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-flow-col lg:auto-cols-fr items-center place-content-center">
           <div className="mx-auto max-w-sm sm:max-w-xl">
