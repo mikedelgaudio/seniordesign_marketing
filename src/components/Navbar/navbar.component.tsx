@@ -8,7 +8,7 @@ const Navbar = () => {
         <li>
           <a
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800	 focus:ring-offset-2"
-            href="#"
+            href="#features"
           >
             Features
           </a>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>
           <a
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
-            href="#"
+            href="#team"
           >
             Team
           </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className="flex flex-nowrap items-center justify-between gap-4 w-auto">
           <a
             className="text-3xl lg:text-4xl font-semibold rounded text-slate-900 transition-all duration-200 hover:text-opacity-50 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
-            href="/"
+            href="#home"
           >
             Prism
           </a>

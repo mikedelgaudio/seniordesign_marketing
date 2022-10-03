@@ -3,7 +3,10 @@ import wreynoldImg from "../../assets/profile_pictures/wreyond.jpg";
 
 const Team = () => {
   return (
-    <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36 bg-slate-100">
+    <section
+      id="team"
+      className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36 bg-slate-100"
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl lg:text-5xl font-bold">Meet the team</h2>
         <p className="text-slate-600 pt-2">
