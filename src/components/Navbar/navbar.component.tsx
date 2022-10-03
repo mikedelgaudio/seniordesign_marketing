@@ -24,7 +24,8 @@ const Navbar = () => {
         <li>
           <a
             className="flex items-center justify-center rounded-xl border border-slate-900 bg-transparent px-5 py-2 text-base font-semibold leading-7 text-slate-900 transition-all duration-200 hover:bg-slate-900 hover:text-white focus:bg-slate-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-slate-800 focus:ring-offset-2 w-full sm:w-auto"
-            href="#"
+            href="mailto:mdelgaud@stevens.edu"
+            target="_blank"
           >
             Contact
           </a>

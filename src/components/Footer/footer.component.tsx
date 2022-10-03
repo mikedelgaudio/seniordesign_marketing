@@ -21,7 +21,8 @@ const Footer = () => {
         <li>
           <a
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
-            href="#"
+            href="mailto:mdelgaud@stevens.edu"
+            target="_blank"
           >
             Contact
           </a>
