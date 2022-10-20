@@ -1,5 +1,5 @@
-import mdelgaudImg from "../../assets/profile_pictures/mdelgaud.jpg";
-import wreynoldImg from "../../assets/profile_pictures/wreyond.jpg";
+import mdelgaudImg from "../../../assets/profile_pictures/mdelgaud.jpg";
+import wreynoldImg from "../../../assets/profile_pictures/wreyond.jpg";
 
 const Team = () => {
   return (
