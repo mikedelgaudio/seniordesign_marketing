@@ -20,14 +20,14 @@ const Features = () => {
                 subscription. To get your new Prism setup, register your Prism
                 to get the best functionality.
               </p>
-              <div className="flex items-center justify-center pt-3">
+              {/* <div className="flex items-center justify-center pt-3">
                 <a
                   href="#"
                   className="flex items-center justify-center rounded-xl border border-slate-900 bg-slate-900 px-4 py-2 text-md  font-semibold leading-7 text-white transition-all duration-200 hover:bg-transparent hover:border-white focus:bg-transparent focus:text-white focus:outline-none focus:ring-2 focus:ring-slate-800 focus:ring-offset-2"
                 >
                   Register
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="bg-slate-600 rounded-xl p-8">
               <h3 className="font-bold text-2xl">Connect Prism</h3>

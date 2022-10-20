@@ -4,11 +4,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative py-12 sm:py-16 lg:pt-20 lg:pb-36 bg-slate-50"
+      className="relative py-12 sm:py-16 lg:pt-10 lg:pb-30 xl:pt-20 xl:pb-36 bg-slate-50"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-flow-col lg:auto-cols-fr items-center place-content-center">
-          <div className="mx-auto max-w-sm sm:max-w-xl">
+        <div className="flex gap-5 flex-col lg:flex-row lg:gap-20 items-center justify-center">
+          <div className="max-w-md sm:max-w-xl">
             <h1 className="font-pj text-4xl font-bold leading-tight text-slate-900 sm:text-5xl sm:leading-tight lg:text-7xl lg:leading-tight">
               Get serious with{" "}
               <span className="text-gradient">productivity</span>
@@ -32,8 +32,9 @@ const Hero = () => {
             <img
               src="https://via.placeholder.com/500"
               alt="Hero banner"
-              height={500}
-              width={500}
+              aria-hidden="true"
+              height={400}
+              width={400}
             />
           </div>
         </div>

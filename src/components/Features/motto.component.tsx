@@ -25,16 +25,8 @@ const Motto = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center gap-10">
+          <div className="flex items-center gap-10">
             <img
-              src="https://via.placeholder.com/100"
-              alt="image"
-              loading="lazy"
-              height={100}
-              width={100}
-            />
-            <img
-              className="absolute right-[13.5rem] bottom-[10rem]"
               src="https://via.placeholder.com/100"
               alt="image"
               loading="lazy"
