@@ -3,6 +3,12 @@ import { NavLink } from "react-router-dom";
 import "./navbar.component.css";
 
 const Navbar = () => {
+  const [toggled, setToggle] = useState(false);
+
+  const navigated = () => {
+    if (toggled) setToggle(toggled => (toggled = !toggled));
+  };
+
   const links = () => {
     return (
       <>
@@ -10,6 +16,7 @@ const Navbar = () => {
           <a
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800	 focus:ring-offset-2"
             href="/#features"
+            onClick={navigated}
           >
             Features
           </a>
@@ -18,6 +25,7 @@ const Navbar = () => {
           <a
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
             href="/#team"
+            onClick={navigated}
           >
             Team
           </a>
@@ -26,6 +34,7 @@ const Navbar = () => {
           <NavLink
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
             to={"/blog"}
+            onClick={navigated}
           >
             Blog
           </NavLink>
@@ -43,7 +52,6 @@ const Navbar = () => {
     );
   };
 
-  const [toggled, setToggle] = useState(false);
   const hamburgerMenu = () => {
     return (
       <>
