@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./navbar.component.css";
 
 const Navbar = () => {
@@ -20,6 +21,14 @@ const Navbar = () => {
           >
             Team
           </a>
+        </li>
+        <li>
+          <NavLink
+            className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            to={"/blog"}
+          >
+            Blog
+          </NavLink>
         </li>
         <li>
           <a

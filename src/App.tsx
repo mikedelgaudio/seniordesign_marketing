@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Blog } from "./components/Blog";
 import { E404 } from "./components/E404";
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<E404 />} />
         </Routes>
       </main>
