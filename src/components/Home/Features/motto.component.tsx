@@ -10,8 +10,8 @@ const Motto = () => {
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold">Why Prism</h2>
               <p className="pt-2 max-w-md text-lg">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Cupiditate voluptatum voluptate reiciendis
+                Try the product thats revolutionizing focus time at work and
+                school
               </p>
             </div>
 

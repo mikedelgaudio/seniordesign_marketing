@@ -14,10 +14,8 @@ const Hero = () => {
               <span className="text-gradient">productivity</span>
             </h1>
             <p className="pt-4 text-lg sm:text-xl ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              veritatis rerum, et molestias optio iure magni atque dolore
-              deserunt, iste maxime officia laborum quas, culpa nam sunt?
-              Sapiente, sed quam!
+              Step up your productivity! Whether work, school, or play Prism can
+              help you increase focus and decrease wasted potential.
             </p>
             <div className="flex items-center justify-end pt-6">
               <a

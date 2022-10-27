@@ -14,11 +14,11 @@ const Features = () => {
           <p className="text-slate-400 pt-2">You're ready to get serious</p>
           <div className="mt-12 grid grid-cols-1 gap-6 md:mt-13 lg:grid-cols-3">
             <div className="bg-slate-600 rounded-xl p-8">
-              <h3 className="font-bold text-2xl">Register for Prism+</h3>
+              <h3 className="font-bold text-2xl">Real Time Analytics</h3>
               <p className="pt-2">
-                Every Prism includes a Prism+ analytic and connectivity
-                subscription. To get your new Prism setup, register your Prism
-                to get the best functionality.
+                Our web interface allows for on-the-go tracking of your work,
+                study, exercise, or leisure activities so that you can see where
+                your spending your time, anytime!
               </p>
               {/* <div className="flex items-center justify-center pt-3">
                 <a
@@ -30,21 +30,18 @@ const Features = () => {
               </div> */}
             </div>
             <div className="bg-slate-600 rounded-xl p-8">
-              <h3 className="font-bold text-2xl">Connect Prism</h3>
+              <h3 className="font-bold text-2xl">Long Lasting Battery</h3>
               <p className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt unde aut quam optio voluptate esse nesciunt autem cum
-                eveniet est quasi, perspiciatis rerum. Expedita aperiam numquam
-                laboriosam magnam culpa rem.
+                The Prism offers multiple battery modes capable of providing up
+                to 40+ hours of battery life for a seamless user experience.
               </p>
             </div>
             <div className="bg-slate-600 rounded-xl p-8">
-              <h3 className="font-bold text-2xl">Get productive</h3>
+              <h3 className="font-bold text-2xl">Tactile Experience</h3>
               <p className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt unde aut quam optio voluptate esse nesciunt autem cum
-                eveniet est quasi, perspiciatis rerum. Expedita aperiam numquam
-                laboriosam magnam culpa rem.
+                The physical act of flipping the Prism is proven to facilitate
+                noticeable increase in users' ability to quickly change focus
+                between tasks.
               </p>
             </div>
           </div>
