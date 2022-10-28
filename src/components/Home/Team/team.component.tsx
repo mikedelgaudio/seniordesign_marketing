@@ -1,3 +1,5 @@
+import jweickenImg from "../../../assets/profile_pictures/jweicken.jpg";
+import lgonzaleImg from "../../../assets/profile_pictures/lgonzale.jpg";
 import mdelgaudImg from "../../../assets/profile_pictures/mdelgaud.jpg";
 import wreynoldImg from "../../../assets/profile_pictures/wreyond.jpg";
 
@@ -62,7 +64,7 @@ const Team = () => {
           <div className="flex flex-col gap-3 items-center">
             <img
               className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
-              src="https://via.placeholder.com/300"
+              src={lgonzaleImg}
               alt="Leticia Marquez Profile Picture"
               loading="lazy"
               height={272}
@@ -101,6 +103,21 @@ const Team = () => {
             <div className="flex flex-col items-center">
               <p className="font-bold m-0">Marc Terranova</p>
               <small className="text-slate-600">Mechanical Engineer</small>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3 items-center">
+            <img
+              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              src={jweickenImg}
+              alt="Johannes Weickenmeier Profile Picture"
+              loading="lazy"
+              height={272}
+              width={272}
+            />
+            <div className="flex flex-col items-center">
+              <p className="font-bold m-0">Johannes Weickenmeier</p>
+              <small className="text-slate-600">Academic Advisor</small>
             </div>
           </div>
         </div>

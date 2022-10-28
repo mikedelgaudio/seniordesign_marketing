@@ -1,3 +1,4 @@
+import banner from "../../../assets/hero/banner.jpg";
 import "./hero.component.css";
 
 const Hero = () => {
@@ -28,7 +29,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center pt-6 lg:pt-0">
             <img
-              src="https://via.placeholder.com/500"
+              src={banner}
               alt="Hero banner"
               aria-hidden="true"
               height={400}

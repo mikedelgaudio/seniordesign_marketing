@@ -1,39 +1,51 @@
+import { blogs } from "./data";
+
 const BlogCard = () => {
   return (
-    <article className="flex gap-5 flex-col lg:flex-row lg:gap-20 items-center justify-center bg-slate-100 py-7 rounded-lg shadow-md">
-      <div className="max-w-md px-4 md:px-0 sm:max-w-xl">
-        <h2 className="text-3xl lg:text-5xl font-bold leading-tight flex flex-col">
-          <span className="text-lg">
-            {new Date().getMonth()}/{new Date().getDay()}/
-            {new Date().getFullYear()}
-          </span>
-          The project begins
-        </h2>
-        <p className="pt-2 text-md sm:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-          veritatis rerum, et molestias optio iure magni atque dolore deserunt,
-          iste maxime officia laborum quas, culpa nam sunt? Sapiente, sed quam!
-        </p>
-        <h3 className="font-bold text-lg pt-3">Header 2</h3>
-        <p className="text-md sm:text-xl ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-          veritatis rerum, et molestias optio iure magni atque dolore deserunt,
-          iste maxime officia laborum quas, culpa nam sunt? Sapiente, sed quam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-          veritatis rerum, et molestias optio iure magni atque dolore deserunt,
-          iste maxime officia laborum quas, culpa nam sunt? Sapiente, sed quam!
-        </p>
-      </div>
-      <div className="flex items-center justify-center pt-6 lg:pt-0">
-        <img
-          src="https://via.placeholder.com/300"
-          alt="Image"
-          aria-hidden="true"
-          height={300}
-          width={300}
-        />
-      </div>
-    </article>
+    <>
+      {blogs?.map(blog => {
+        return (
+          <article
+            key={blog.date.toISOString()}
+            className="flex p-6 gap-5 flex-col lg:flex-row lg:gap-20 items-center justify-center bg-slate-100 py-7 rounded-lg shadow-md"
+          >
+            <div className="max-w-md px-4 md:px-0 sm:max-w-xl">
+              <h2 className="text-3xl lg:text-5xl font-bold leading-tight flex flex-col">
+                <span className="text-lg">
+                  {blog.date.getMonth() + 1}/{blog.date.getDate()}/
+                  {blog.date.getFullYear()}
+                </span>
+                {blog.title}
+              </h2>
+              {blog?.imgUrl ? (
+                <div className="flex items-center justify-center pt-4">
+                  <img
+                    className="object-cover h-[200px] w-[600px]"
+                    src={blog?.imgUrl}
+                    alt={blog?.imgAlt}
+                    aria-hidden="true"
+                    height={200}
+                    width={600}
+                  />
+                </div>
+              ) : (
+                <></>
+              )}
+
+              <h3 className="font-bold text-lg pt-3">Members in attendance</h3>
+              <p className="text-md sm:text-xl">{blog.membersInAttendance}</p>
+
+              <h3 className="font-bold text-lg pt-3">Topics of discussion</h3>
+              <ul className="text-md list-disc pl-5 sm:text-xl">
+                {blog.topicsOfDiscussion.map(topic => {
+                  return <li key={topic}>{topic}</li>;
+                })}
+              </ul>
+            </div>
+          </article>
+        );
+      })}
+    </>
   );
 };
 
