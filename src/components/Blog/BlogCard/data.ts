@@ -9,7 +9,7 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
-    date: new Date("10-20-2022"),
+    date: new Date("10/20/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -22,7 +22,7 @@ export const blogs: BlogPost[] = [
     imgAlt: "Banner",
   },
   {
-    date: new Date("10-19-2022"),
+    date: new Date("10/19/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -33,7 +33,7 @@ export const blogs: BlogPost[] = [
     ],
   },
   {
-    date: new Date("10-06-2022"),
+    date: new Date("10/06/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -42,7 +42,7 @@ export const blogs: BlogPost[] = [
     ],
   },
   {
-    date: new Date("10-03-2022"),
+    date: new Date("10/03/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -52,7 +52,7 @@ export const blogs: BlogPost[] = [
     imgAlt: "Banner",
   },
   {
-    date: new Date("09-21-2022"),
+    date: new Date("09/21/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -65,7 +65,7 @@ export const blogs: BlogPost[] = [
     imgAlt: "Banner",
   },
   {
-    date: new Date("09-12-2022"),
+    date: new Date("09/12/2022"),
     title: "Team Meeting",
     membersInAttendance:
       "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
@@ -82,7 +82,7 @@ export const blogs: BlogPost[] = [
     imgAlt: "Banner",
   },
   {
-    date: new Date("09-08-2022"),
+    date: new Date("09/08/2022"),
     title: "Initial Meeting with Advisor",
     membersInAttendance:
       "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
