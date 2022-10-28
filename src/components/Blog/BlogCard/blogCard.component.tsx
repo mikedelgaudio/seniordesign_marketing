@@ -6,7 +6,7 @@ const BlogCard = () => {
       {blogs?.map(blog => {
         return (
           <article
-            key={blog.date.toISOString()}
+            key={blog.date.getTime()}
             className="flex p-6 gap-5 flex-col lg:flex-row lg:gap-20 items-center justify-center bg-slate-100 py-7 rounded-lg shadow-md"
           >
             <div className="max-w-md px-4 md:px-0 sm:max-w-xl">
