@@ -1,3 +1,5 @@
+import motto from "../../../assets/motto/motto.jpg";
+
 const Motto = () => {
   return (
     <section
@@ -9,7 +11,7 @@ const Motto = () => {
           <div>
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold">Why Prism</h2>
-              <p className="pt-2 max-w-md text-lg">
+              <p className="pt-2 text-lg">
                 Try the product thats revolutionizing focus time at work and
                 school
               </p>
@@ -24,21 +26,14 @@ const Motto = () => {
               </ul>
             </div>
           </div>
-
-          <div className="flex items-center gap-10">
+          <div className="flex items-center justify-center">
             <img
-              src="https://via.placeholder.com/100"
-              alt="image"
-              loading="lazy"
-              height={100}
-              width={100}
-            />
-            <img
-              src="https://via.placeholder.com/100"
-              alt="image"
-              loading="lazy"
-              height={100}
-              width={100}
+              className="object-cover h-[200px] w-[400px]"
+              src={motto}
+              alt={"Banner"}
+              aria-hidden="true"
+              height={200}
+              width={400}
             />
           </div>
         </div>
