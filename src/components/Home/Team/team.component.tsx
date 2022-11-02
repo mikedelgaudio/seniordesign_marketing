@@ -2,6 +2,7 @@ import jweickenImg from "../../../assets/profile_pictures/jweicken.jpg";
 import lgonzaleImg from "../../../assets/profile_pictures/lgonzale.jpg";
 import mdelgaudImg from "../../../assets/profile_pictures/mdelgaud.jpg";
 import wreynoldImg from "../../../assets/profile_pictures/wreyond.jpg";
+import zaamerImg from "../../../assets/profile_pictures/zaamer.jpg";
 
 const Team = () => {
   return (
@@ -18,8 +19,8 @@ const Team = () => {
         <div className="mt-12 grid grid-cols-1 gap-6 md:mt-13 md:grid-cols-3 sm:grid-cols-2">
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
-              src="https://via.placeholder.com/300"
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              src={zaamerImg}
               alt="Zain Aamer Profile Picture"
               loading="lazy"
               height={272}
