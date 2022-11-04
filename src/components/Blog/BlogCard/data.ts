@@ -9,8 +9,38 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
-    date: new Date("10/20/2022"),
+    date: new Date("11/03/2022"),
+    title: "Advisor Team Meeting",
+    membersInAttendance:
+      "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Progress since last check in",
+      "Discussed most important feedback to be addressed from Phase 1 Presentation/Report",
+      "Discussed presentation method",
+      "Presented areas of technical analysis for approval/feedback",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("11/02/2022"),
     title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review of status of website for upcoming due date",
+      "Presented Finite Element Analysis and results",
+      "Assigned technical analysis sections for Phase 2 Presentation",
+      "Discussed plan for meeting with advisor following day",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("10/20/2022"),
+    title: "Advisor Team Meeting",
     membersInAttendance:
       "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
     topicsOfDiscussion: [
@@ -34,7 +64,7 @@ export const blogs: BlogPost[] = [
   },
   {
     date: new Date("10/06/2022"),
-    title: "Team Meeting",
+    title: "Advisor Team Meeting",
     membersInAttendance:
       "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
     topicsOfDiscussion: [

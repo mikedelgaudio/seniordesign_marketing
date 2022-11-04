@@ -26,14 +26,14 @@ const Motto = () => {
               </ul>
             </div>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center pt-6 sm:pt-0">
             <img
-              className="object-cover h-[200px] w-[400px]"
+              className="object-cover h-[250px] w-[600px]"
               src={motto}
               alt={"Banner"}
               aria-hidden="true"
-              height={200}
-              width={400}
+              height={250}
+              width={600}
             />
           </div>
         </div>
