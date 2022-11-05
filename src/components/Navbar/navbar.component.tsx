@@ -79,7 +79,7 @@ const Navbar = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-nowrap items-center justify-between gap-4 w-auto">
           <a
-            className="flex items-center gap-4 text-2xl md:text-3xl font-semibold rounded focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            className="flex items-center gap-3 text-xl md:text-2xl font-semibold rounded focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
             href="/"
           >
             <div aria-hidden={true}>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 data-name="Layer 1"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 460.01 460.02"
-                className="w-[55px] sm:w-[65px] md:w-[75px]"
+                className="w-[50px] md:w-[60px]"
                 aria-hidden={true}
               >
                 <path
@@ -97,7 +97,7 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <div className="flex flex-col leading-5 md:leading-7">
+            <div className="flex flex-col leading-4 md:leading-5">
               <span className="font-extrabold text-[#4d82c3] uppercase ">
                 Prism
               </span>
