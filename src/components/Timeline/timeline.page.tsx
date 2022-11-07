@@ -1,4 +1,5 @@
 import { Budget } from "./Budget";
+import { Concepts } from "./Concepts";
 import { Gantt } from "./Gantt";
 import { Header } from "./Header";
 
@@ -9,6 +10,7 @@ const Timeline = () => {
         <Header />
         <div className="flex flex-col py-6 gap-10">
           <Budget />
+          <Concepts />
           <Gantt />
         </div>
       </div>
