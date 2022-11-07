@@ -1,3 +1,4 @@
+import ckurtzImg from "../../../assets/profile_pictures/ckurtz.jpg";
 import jweickenImg from "../../../assets/profile_pictures/jweicken.jpg";
 import lgonzaleImg from "../../../assets/profile_pictures/lgonzale.jpg";
 import mdelgaudImg from "../../../assets/profile_pictures/mdelgaud.jpg";
@@ -34,7 +35,7 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
               src={mdelgaudImg}
               alt="Mike DelGaudio Profile Picture"
               loading="lazy"
@@ -49,8 +50,8 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
-              src="https://via.placeholder.com/300"
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              src={ckurtzImg}
               alt="Christopher Kurtz Profile Picture"
               loading="lazy"
               height={272}
@@ -64,7 +65,7 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
               src={lgonzaleImg}
               alt="Leticia Marquez Profile Picture"
               loading="lazy"
@@ -79,7 +80,7 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
               src={wreynoldImg}
               alt="William Reynolds Profile Picture"
               loading="lazy"
@@ -94,7 +95,7 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
               src="https://via.placeholder.com/300"
               alt="Marc Terranova Profile Picture"
               loading="lazy"
@@ -109,7 +110,7 @@ const Team = () => {
 
           <div className="flex flex-col gap-3 items-center">
             <img
-              className="w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
+              className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
               src={jweickenImg}
               alt="Johannes Weickenmeier Profile Picture"
               loading="lazy"

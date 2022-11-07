@@ -20,7 +20,7 @@ const BlogCard = () => {
               {blog?.imgUrl ? (
                 <div className="flex items-center justify-center pt-4">
                   <img
-                    className="object-cover h-[200px] w-[600px]"
+                    className="object-cover h-[200px] w-[600px] rounded-xl"
                     src={blog?.imgUrl}
                     alt={blog?.imgAlt}
                     aria-hidden="true"

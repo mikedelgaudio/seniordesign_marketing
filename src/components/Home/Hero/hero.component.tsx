@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center pt-6 lg:pt-0">
             <img
-              className="object-cover h-[400px] w-[400px]"
+              className="object-cover h-[400px] w-[400px] rounded-xl"
               src={banner}
               alt="Hero banner"
               aria-hidden="true"

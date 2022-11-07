@@ -28,7 +28,7 @@ const Motto = () => {
           </div>
           <div className="flex items-center justify-center pt-6 sm:pt-0">
             <img
-              className="object-cover h-[250px] w-[600px]"
+              className="object-cover h-[250px] w-[600px] rounded-xl"
               src={motto}
               alt={"Banner"}
               aria-hidden="true"
