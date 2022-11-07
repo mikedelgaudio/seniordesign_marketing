@@ -2,6 +2,7 @@ import ckurtzImg from "../../../assets/profile_pictures/ckurtz.jpg";
 import jweickenImg from "../../../assets/profile_pictures/jweicken.jpg";
 import lgonzaleImg from "../../../assets/profile_pictures/lgonzale.jpg";
 import mdelgaudImg from "../../../assets/profile_pictures/mdelgaud.jpg";
+import mterranoImg from "../../../assets/profile_pictures/mterrano.jpg";
 import wreynoldImg from "../../../assets/profile_pictures/wreyond.jpg";
 import zaamerImg from "../../../assets/profile_pictures/zaamer.jpg";
 
@@ -96,7 +97,7 @@ const Team = () => {
           <div className="flex flex-col gap-3 items-center">
             <img
               className="object-cover w-40 h-40 lg:w-[17rem] lg:h-[17rem] rounded-2xl "
-              src="https://via.placeholder.com/300"
+              src={mterranoImg}
               alt="Marc Terranova Profile Picture"
               loading="lazy"
               height={272}
