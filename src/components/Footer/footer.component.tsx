@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
   const links = () => {
     return (
@@ -17,6 +19,22 @@ const Footer = () => {
           >
             Team
           </a>
+        </li>
+        <li>
+          <NavLink
+            className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            to="/blog"
+          >
+            Blog
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
+            to="/timeline"
+          >
+            Timeline
+          </NavLink>
         </li>
         <li>
           <a
