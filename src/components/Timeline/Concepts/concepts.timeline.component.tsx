@@ -10,7 +10,7 @@ const Concepts = () => {
       </h2>
       <div className="flex flex-col items-center justify-center">
         <img
-          className="object-cover w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
+          className="object-contain w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
           src={concept1}
           alt="Concept Art 1"
           loading="lazy"
@@ -18,7 +18,7 @@ const Concepts = () => {
           width={1000}
         />
         <img
-          className="object-cover w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
+          className="object-contain w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
           src={concept2}
           alt="Concept Art 2"
           loading="lazy"
@@ -26,7 +26,7 @@ const Concepts = () => {
           width={1000}
         />
         <img
-          className="object-cover w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
+          className="object-contain w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
           src={concept3}
           alt="Concept Art 2"
           loading="lazy"
