@@ -9,6 +9,47 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
+    date: new Date("12/06/2022"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Web interface brainstorming",
+      "Discuss report content and progress thus far",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("12/01/2022"),
+    title: "Advisor Team Meeting",
+    membersInAttendance:
+      "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review of Phase 3 feedback",
+      "Discussion of hold on part delivery and domain purchase",
+      "Discuss and review progress in developing website interface",
+      "Discussing PROOF Lab submission of 3D components",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("11/10/2022"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review of presentation before submission",
+      "Practice run of presentation",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+    imgAlt: "Banner",
+  },
+  {
     date: new Date("11/03/2022"),
     title: "Advisor Team Meeting",
     membersInAttendance:
