@@ -1,6 +1,7 @@
 import concept1 from "../../../assets/concepts/Concept1.jpg";
 import concept2 from "../../../assets/concepts/Concept2.jpg";
 import concept3 from "../../../assets/concepts/Concept3.jpg";
+import concept4 from "../../../assets/concepts/Concept4.jpg";
 
 const Concepts = () => {
   return (
@@ -28,7 +29,15 @@ const Concepts = () => {
         <img
           className="object-contain w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
           src={concept3}
-          alt="Concept Art 2"
+          alt="Concept Art 3"
+          loading="lazy"
+          height={400}
+          width={1000}
+        />
+        <img
+          className="object-contain w-[500px] h-[300px] lg:w-[1000px] lg:h-[400px] rounded-2xl"
+          src={concept4}
+          alt="Concept Art 4"
           loading="lazy"
           height={400}
           width={1000}
